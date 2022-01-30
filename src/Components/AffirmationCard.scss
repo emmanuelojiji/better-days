@@ -1,0 +1,16 @@
+.AffirmationCard {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(66, 204, 201);
+  color: white;
+
+  h3{
+      margin-bottom: 10px;
+  }
+}

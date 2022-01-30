@@ -1,0 +1,43 @@
+$blue: #082a3d;
+
+h1,
+h2,
+h3,
+p {
+  transform: scale(1, 0.98);
+}
+
+h1,h2,h3{
+    letter-spacing: -1px;
+}
+
+p{
+    font-size: 15px;
+}
+
+a{
+    cursor: pointer;
+}
+
+.page-width {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  
+  .button{
+    background: white;
+    width: 100%;
+    color:black; 
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 1000px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+}

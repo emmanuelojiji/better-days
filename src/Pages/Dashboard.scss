@@ -1,0 +1,27 @@
+@import '../global.scss';
+
+.Dashboard{
+    height: 100vh;
+    padding-top: 30px;
+    
+
+    .greeting{
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    h2{
+        margin-bottom: 20px;
+    }
+
+    .landscape{
+        display: block;
+        min-height: 170px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        background-color: #d9d9d9;
+    }
+}
