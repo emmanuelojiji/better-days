@@ -13,7 +13,7 @@ const Landing = () => {
         <div>
           <img src={BillboardImage}></img>
           <h1>
-            Escape To Your <br></br>World of Calm
+            Escape to your <br></br>world of calm
           </h1>
           <p>Lorem ipsum dolor sit amet elit </p>
         </div>
