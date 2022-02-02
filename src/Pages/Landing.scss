@@ -6,7 +6,7 @@
 
 .billboard {
   height: 100vh;
-  background: $blue;
+  background: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@
   text-align: center;
 
   h1 {
-    color: white;
+    color: #191919;
     font-size: 30px;
     text-align: center;
     margin-top: 20px;
@@ -24,7 +24,7 @@
   }
 
   p {
-    color: #99dde4;
+    color: grey;
     font-size: 16px;
   }
 
