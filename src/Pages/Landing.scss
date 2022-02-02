@@ -41,5 +41,12 @@
     &:nth-child(1) {
       margin-bottom: 20px;
     }
+
+    &.sign-up {
+      background: transparent;
+      border: solid 1px #01acbd;
+      color: #01acbd;
+      box-shadow: none;
+    }
   }
 }
