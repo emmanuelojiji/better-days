@@ -29,7 +29,7 @@ const Landing = () => {
             <Link to="/signup" class="button sign-up">
               Sign Up
             </Link>
-          </div>
+          </div>  
         )}
       </section>
 

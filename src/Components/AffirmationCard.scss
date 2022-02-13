@@ -10,7 +10,35 @@
   background: rgb(66, 204, 201);
   color: white;
 
-  h3{
-      margin-bottom: 10px;
+  .quote-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+}
+
+.icon-menu-wrap {
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  z-index: 1;
+  width: 150px;
+  color: grey;
+  border-radius: 5px;
+  display: none;
+
+  span {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 14px;
   }
 }

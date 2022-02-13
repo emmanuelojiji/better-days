@@ -8,8 +8,8 @@ const Login = () => {
         {/*<Link to="/">BetterDays</Link> */}
         <h1>Log In</h1>
 
-        <input placeholder="Email"></input>
-        <input placeholder="Password"></input>
+        <input placeholder='Email'></input>
+      <input placeholder='Password'></input>
         <Link to="/dashboard" class="button">Log In</Link>
         <Link to="/signup" class="switch">Sign Up Instead</Link>
       </section>

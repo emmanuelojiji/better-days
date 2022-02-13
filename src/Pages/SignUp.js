@@ -6,10 +6,11 @@ const SignUp = () => {
     <section class="SignUp page-width">
       <Link to="/">BetterDays</Link>
       <h1>Sign Up</h1>
-      <input></input>
-      <input></input>
+      <input placeholder='Name'></input>
+      <input placeholder='Email'></input>
+      <input placeholder='Password'></input>
       <a class="button">Sign Up</a>
-      <Link to="/login">Log In Instead</Link>
+      <Link to="/login" class="switch">Log In Instead</Link> 
     </section>
   );
 };

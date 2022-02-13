@@ -1,8 +1,36 @@
+.SignUp {
+  padding-top: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 
-.SignUp{
+  h1 {
+    margin-bottom: 20px;
+    font-size: 20px !important;
+  }
 
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  input {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 0;
+    color: grey;
+    border: solid 2px #4dc4d0;
+    &::placeholder {
+      color: grey;
+    }
+  }
+
+  a {
+    margin-bottom: 20px;
+  }
+
+  .switch {
+    color: #395463;
+    font-size: 14px;
+  }
 }

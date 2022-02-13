@@ -7,9 +7,7 @@ const Dashboard = () => {
   return (
     <section class="Dashboard page-width">
       <h1 class="greeting">
-        Good Afternoon,
-        <br />
-        Emmanuel
+        Good Afternoon Emmanuel.
       </h1>
 
       <div
